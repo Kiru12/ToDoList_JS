@@ -1,0 +1,90 @@
+body {
+    background: #2d616b;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    margin: 1%;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight:  600;
+}
+
+#first {
+    color:gold;
+    margin-top: 10px;
+}
+
+#second {
+    color: chartreuse;
+}
+
+#third {
+    color:mediumslateblue;
+    margin-bottom: 50px;
+}
+
+#enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: lightslategrey;
+    background-color: aquamarine;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s;
+}
+
+#enter:hover {
+    background-color: crimson;
+    color: darkred;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s;
+}
+
+li:hover {
+    background: #76cfe0;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    font-weight: 800;
+}
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}
